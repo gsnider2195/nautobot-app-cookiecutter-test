@@ -9,4 +9,4 @@ jobs:
     uses: "nautobot/nautobot/.github/workflows/plugin_upstream_testing_base.yml@u/gas-6055-upstream-testing-migrations"
     with:  # Below could potentially be collapsed into a single argument if a concrete relationship between both is enforced
       invoke_context_name: "MY_APP"
-      plugin_name: "nautobot-app-my-app"
+      plugin_name: "my-app"
